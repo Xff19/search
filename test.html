@@ -1,0 +1,21 @@
+<html>
+  <style>
+    .test {
+      background-color: red;
+      width: 400px;
+    }
+    .test:active {
+      opacity: 0.1;
+    }
+    @media (any-hover: hover) {
+      .test:hover {
+        opacity: 0.1;
+      }
+    }
+  </style>
+  <button class="test">add</button>
+</html>
+
+<script>
+  document.body.addEventListener("touchstart", function () {});
+</script>

@@ -1,12 +1,19 @@
+
 import Image from "next/image";
 import Link from "next/link";
+import Posts from "./components/Posts";
 export default function Home() {
+
+  
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* <h1>welcome</h1>
-      <Link href="/about">go to about</Link>
-      <br/>
-      <Link href="/user">go to user</Link> */}
+    <main className="px-6 mx-auto">
+      {/* <p className="mt-20 mb-12 text-3xl text-center dark:text-white">
+        hello and welcome &nbsp;
+        <span className="whitespace-nowrap">
+        I'm<span className="font-bold"> sya</span>
+      </span>
+      </p> */}
+      {/* <Posts></Posts> */}
     </main>
   );
 }
